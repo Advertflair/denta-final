@@ -958,6 +958,9 @@ footer li:last-child {
   br {
     display: none;
   }
+  nobr {
+    white-space: pre-wrap;
+  }
   .headline {
     padding: 125px 70px;
   }
