@@ -202,6 +202,7 @@ nav .list-menu li {
 }
 nav a {
   color: #171c34;
+  font-size: 18px;
 }
 nav .logo img {
   width: 100%;
@@ -978,7 +979,9 @@ footer li:last-child {
   br {
     display: none;
   }
-
+  nobr {
+    white-space: pre-wrap;
+  }
   .burger-menu {
     display: flex;
     flex-basis: 20%;
