@@ -203,6 +203,7 @@ nav .list-menu li {
 nav a {
   color: #171c34;
   font-size: 18px;
+  font-weight: 400;
 }
 nav .logo img {
   width: 100%;
