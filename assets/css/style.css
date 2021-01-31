@@ -1283,4 +1283,9 @@ footer li:last-child {
     background: none;
     padding: 0 20px !important;
   }
+  .accordion-icon {
+    flex-basis: 30px;
+    height: 30px;
+    border-radius: 100px;
+  }
 }
