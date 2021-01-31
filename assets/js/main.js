@@ -31,9 +31,9 @@ menu.addEventListener("click", burgerMenus);
 // Header Scroll
 let navigations = document.querySelector("nav");
 
-document.querySelector(
-  ".banner,.headline"
-).style.marginTop = `${navigations.clientHeight}px`;
+document.querySelector(".banner,.headline").style.marginTop = `${
+  navigations.clientHeight - 6
+}px`;
 function header() {
   if (scrollY > 50) {
     navigations.classList.add("fix-active");
